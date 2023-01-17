@@ -3,7 +3,8 @@ html,body {
 }
 
 body.my-login-page {
-    background-color: azure;
+    background: rgb(0,153,255);
+    background: radial-gradient(circle, rgba(0,153,255,0.1390756986388305) 32%, rgba(0,11,117,0.1474790599833683) 100%);
     font-size: 14px;
 }
 
@@ -160,8 +161,7 @@ body #footer {
     text-decoration: none;
 }
 .svg-bg {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     z-index: -2;
-
 }

@@ -14,8 +14,8 @@ $(function() {
             paddingRight: 60
         });
         $this.after($("<div/>", {
-            html: 'Show',
-            class: 'btn btn-primary btn-sm',
+            html: '👀',
+            class: 'btn btn-primary btn-sm rounded-pill',
             id: 'passeye-toggle-'+i,
         }).css({
             position: 'absolute',
@@ -24,6 +24,7 @@ $(function() {
             padding: '2px 7px',
             fontSize: 12,
             cursor: 'pointer',
+
         }));
 
         $this.after($("<input/>", {

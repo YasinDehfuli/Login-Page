@@ -65,9 +65,7 @@ $(function() {
 });
 
 
-    $('#btn').on('mousemove',function () {
+    $('.btn').on('mousemove',function () {
         console.log("enter");
-        $('#img').addClass("hover");
-
+        $('.img').addClass("hover");
     });
-

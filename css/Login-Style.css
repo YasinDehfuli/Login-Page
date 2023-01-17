@@ -3,7 +3,7 @@ html,body {
 }
 
 body.my-login-page {
-    background-color: #f7f9fb;
+    background-color: azure;
     font-size: 14px;
 }
 
@@ -13,10 +13,11 @@ body.my-login-page {
     overflow: hidden;
     border-radius: 50%;
     margin: 40px auto;
-    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,.10);
     position: relative;
     z-index: 1;
     transition: 3s;
+    background: rgba(36,39,52,0.3);
 }
 
 .my-login-page .brand img {
@@ -34,6 +35,8 @@ body.my-login-page {
 
 .my-login-page .card.fat {
     padding: 10px;
+    background: rgba(36,39,52,0.3);;
+    border-radius: 35px;
 }
 
 .my-login-page .card .card-title {
@@ -88,4 +91,77 @@ body.my-login-page {
     transition: 4s;
     transform: rotate(360deg);
     position: relative;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+body #footer {
+    background: rgba(36,39,52,0.3);
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 35px;
+    position: relative;
+    bottom: 0;
+
+}
+
+#footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--font-light);
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+#footer p {
+    font-size: 15px;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: var(--light-color);
+    color: black;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: var(--dark-color);
+    color: #888;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    margin: 0 0 5px 0;
+}
+
+#footer .credits {
+    font-size: 13px;
+}
+#footer a {
+    text-decoration: none;
+}
+.svg-bg {
+    position: absolute;
+    bottom: 0;
+    z-index: -2;
+
 }
